@@ -1,0 +1,23 @@
+{
+    "name": "database_with_js",
+    "version": "1.0.0",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint ."
+    },
+    "author": "Yen",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^4.19.2",
+        "mysql": "github:mysqljs/mysql",
+        "mysql2": "^3.10.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0"
+    }
+}

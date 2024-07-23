@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {},
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "YENHUNG",
+            "database": "0722_database",
+            "username": "Yen",
+            "password": ""
+        }
+    ]
+}
