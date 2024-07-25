@@ -1,0 +1,24 @@
+### 创建 Todo
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "title": "Init Todo"
+}
+
+### 获取所有 Todo
+GET http://localhost:3000/
+
+### 获取某个 Todo
+GET http://localhost:3000/1
+
+### 更新某个 Todo
+PUT http://localhost:3000/4
+Content-Type: application/json
+
+{
+  "title": "New modify Todo"
+}
+
+### 删除某个 Todo
+DELETE http://localhost:3000/4
